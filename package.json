@@ -1,0 +1,17 @@
+{
+  "name": "serversidecrud",
+  "version": "1.0.0",
+  "description": "here we are learning advance server side crud operations",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2"
+  }
+}

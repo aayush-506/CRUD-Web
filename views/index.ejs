@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <div class="Navbar fixed top-0 left-0 flex bg-zinc-700 h-[7vh] w-full z-50">
+        <div class="logo mt-4 h-[7vh] w-[7vw] rounded-md overflow-hidden ml-9">
+            <img src="/images/cruding.png" alt="">
+        </div>
+        <div class="ml-auto mr-9 mt-2 text-white ">
+            <a class="mr-5 underline" href="">Home</a>
+            <a class="underline" href="/read">Users</a>
+        </div>
+    </div>
+    <div class="bg-zinc-900 h-screen w-full pt-[12vh] text-white px-9">
+        <h1>Create User :</h1>
+        <hr>
+
+        <form action="/create" method="post" class="p-9">
+            <label for="name"> Name</label>
+            <input class="block bg-transparent border border-zinc-700 border-2 outline-none w-full pl-5" id="name" name="name" type="text" placeholder="Enter your Name"> <br>
+            <label for="email"> Email</label>
+            <input class="block bg-transparent border border-zinc-700 border-2 outline-none w-full pl-5" id="email" name="email" type="text" placeholder="Enter your Email"><br>
+            <label for="url"> Image url</label>
+            <input class="block bg-transparent border border-zinc-700 border-2 outline-none w-full pl-5" id="url" name="image" type="text" placeholder="Enter the Image url">
+
+            <button class="border p-1 rounded-md ml-9 mt-9 bg-blue-700">Submit</button>
+        </form>
+
+</div>
+
+</body>
+</html>
